@@ -1,0 +1,12 @@
+build:
+  python_version: "3.10"
+  python_packages:
+    - torch
+    - torchvision
+    - diffusers
+    - transformers
+    - safetensors
+    - accelerate
+    - pillow
+
+predict: "predict.py:Predictor"
