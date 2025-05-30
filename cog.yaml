@@ -5,8 +5,7 @@ build:
     - torchvision
     - diffusers
     - transformers
-    - safetensors
     - accelerate
-    - pillow
-
+    - safetensors
+    # Remove placeholder text "other packages you need..."
 predict: "predict.py:Predictor"
